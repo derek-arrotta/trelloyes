@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Card from './Card';
-import renderer from 'react-test-renderer';
+//import renderer from 'react-test-renderer';
 
 describe('card component', () => {
   
@@ -10,5 +10,5 @@ describe('card component', () => {
     ReactDOM.render(<Card />, div);
     ReactDOM.unmountComponentAtNode(div);
   });
-  
+
 });
